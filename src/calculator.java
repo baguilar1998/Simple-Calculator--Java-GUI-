@@ -1,9 +1,11 @@
+import javax.script.ScriptException;
 
-public class calculator {
+public class Calculator {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)throws ScriptException {
 		// TODO Auto-generated method stub
-		calcuGUI gui = new calcuGUI();
+		calculatorGui gui = new calculatorGui();
+		gui.pack();
 	}
 
 }
